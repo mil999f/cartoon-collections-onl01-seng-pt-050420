@@ -1,5 +1,8 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(roll_call_dwarves)
   # Your code here
+  ["Doc","Dopey", "Bashful", "Grumpy"].each do |name|
+    puts "There are #{name.sort} letters in #{name}"
+  end
 end
 
 def summon_captain_planet# code an argument here
